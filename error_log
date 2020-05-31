@@ -1,0 +1,499 @@
+[04-Jan-2020 02:22:00 Etc/GMT] PHP Notice:  Undefined index: price_en in /home/shahahbr/public_html/demo/ecommerce/pages/cart.php on line 19
+[07-Jan-2020 00:45:55 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[08-Jan-2020 21:08:23 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[12-Jan-2020 03:27:36 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[18-Jan-2020 07:24:05 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[22-Jan-2020 11:46:04 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[23-Jan-2020 07:10:26 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[23-Jan-2020 07:10:26 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[29-Jan-2020 09:13:35 Etc/GMT] PHP Notice:  Undefined offset: 0 in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 51
+[29-Jan-2020 09:23:17 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[29-Jan-2020 09:23:17 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[29-Jan-2020 09:23:17 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[29-Jan-2020 09:26:12 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[29-Jan-2020 09:26:12 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[29-Jan-2020 09:26:12 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[29-Jan-2020 21:07:58 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[29-Jan-2020 21:07:58 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[30-Jan-2020 06:08:32 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[30-Jan-2020 06:08:46 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[30-Jan-2020 06:08:47 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[30-Jan-2020 06:08:48 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[30-Jan-2020 06:08:49 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[30-Jan-2020 06:08:50 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[30-Jan-2020 06:08:51 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[01-Feb-2020 02:06:03 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[01-Feb-2020 02:06:03 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[01-Feb-2020 02:06:03 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[01-Feb-2020 02:07:44 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[01-Feb-2020 02:07:44 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[01-Feb-2020 02:07:44 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 26
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[06-Feb-2020 04:58:46 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[06-Feb-2020 17:59:47 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 51
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 16
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[11-Feb-2020 20:16:37 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/index.php on line 9
+[13-Feb-2020 06:42:47 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[13-Feb-2020 06:42:47 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[13-Feb-2020 06:42:47 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[13-Feb-2020 06:44:50 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[13-Feb-2020 06:44:50 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[13-Feb-2020 06:44:50 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[19-Feb-2020 06:47:21 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:21 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:22 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:22 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:22 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:22 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:22 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:22 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:22 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[19-Feb-2020 06:47:22 Etc/GMT] PHP Warning:  Invalid argument supplied for foreach() in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 113
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[20-Feb-2020 02:13:42 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[20-Feb-2020 02:13:54 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:13:54 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:13:54 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:13:54 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:13:54 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:13:54 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:14:12 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:14:12 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:14:12 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:14:12 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:14:13 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:14:13 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:14:22 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:14:22 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:14:23 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:14:23 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:14:25 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:14:25 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:05 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:05 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:05 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:05 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:06 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:06 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:10 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:10 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:11 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:11 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:16 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:16 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:23 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:23 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:32 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:32 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:15:42 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:15:42 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:16:03 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:16:03 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:16:26 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:16:26 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:16:31 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:16:31 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:16:40 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:16:40 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:16:40 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:16:40 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:16:53 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:16:53 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:16:59 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:16:59 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:17:23 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:17:23 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:17:23 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:17:23 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:17:29 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:17:29 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:43:41 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:43:41 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 02:44:08 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 02:44:08 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 17:30:41 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 17:30:41 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-Feb-2020 17:30:48 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[20-Feb-2020 17:30:48 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[22-Feb-2020 01:23:25 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[22-Feb-2020 01:23:25 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[23-Feb-2020 17:17:06 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 93
+[23-Feb-2020 17:17:06 Etc/GMT] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 93
+[23-Feb-2020 17:17:06 Etc/GMT] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 95
+[24-Feb-2020 09:53:43 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[24-Feb-2020 09:53:43 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[24-Feb-2020 09:53:43 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[24-Feb-2020 09:53:43 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[24-Feb-2020 09:53:43 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[24-Feb-2020 09:53:43 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[24-Feb-2020 22:05:39 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[24-Feb-2020 22:05:39 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[25-Feb-2020 11:31:42 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[25-Feb-2020 11:31:42 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[29-Feb-2020 03:36:21 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[29-Feb-2020 03:36:21 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[02-Mar-2020 15:51:32 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 51
+[09-Mar-2020 05:48:23 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 74
+[09-Mar-2020 05:48:23 Etc/GMT] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 74
+[09-Mar-2020 05:48:23 Etc/GMT] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 76
+[10-Mar-2020 22:39:11 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[21-Mar-2020 07:22:48 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 07:22:48 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 07:22:48 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 07:23:24 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 07:23:24 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 07:23:24 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 08:59:16 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 08:59:16 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 08:59:16 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 09:00:19 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 09:00:19 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-Mar-2020 09:00:19 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[22-Mar-2020 01:57:42 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 93
+[22-Mar-2020 01:57:42 Etc/GMT] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 93
+[22-Mar-2020 01:57:42 Etc/GMT] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 95
+[28-Mar-2020 11:38:29 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[28-Mar-2020 11:38:29 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[29-Mar-2020 17:18:27 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[29-Mar-2020 17:18:27 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[30-Mar-2020 06:48:51 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[30-Mar-2020 06:48:51 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[02-Apr-2020 07:08:42 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[02-Apr-2020 07:08:42 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[02-Apr-2020 07:08:42 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 29
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 9
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/include/menu.php on line 12
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[09-Apr-2020 06:13:24 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[09-Apr-2020 12:56:45 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 11
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 16
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 9
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/include/menu.php on line 12
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[09-Apr-2020 12:56:46 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 9
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/include/menu.php on line 12
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 29
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 11
+[09-Apr-2020 12:56:49 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 16
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 9
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/include/menu.php on line 12
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 11
+[09-Apr-2020 12:56:50 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 16
+[09-Apr-2020 12:56:51 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 29
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 11
+[09-Apr-2020 12:56:53 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 16
+[09-Apr-2020 12:56:55 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:56:56 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:56:58 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:56:58 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:56:58 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:56:58 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:56:58 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[09-Apr-2020 12:56:58 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[09-Apr-2020 12:56:59 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:57:00 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 9
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/include/menu.php on line 12
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 11
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 16
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 29
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 11
+[09-Apr-2020 12:57:02 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 16
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 194
+[09-Apr-2020 12:57:03 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 195
+[09-Apr-2020 12:57:04 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:57:05 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:57:06 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 12:57:07 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 9
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/include/menu.php on line 12
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 11
+[09-Apr-2020 14:39:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 16
+[09-Apr-2020 14:39:27 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[09-Apr-2020 14:39:27 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[09-Apr-2020 14:39:27 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[09-Apr-2020 14:39:27 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[09-Apr-2020 14:39:27 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 11
+[09-Apr-2020 14:39:27 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 16
+[18-Apr-2020 15:02:41 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[18-Apr-2020 15:08:23 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[19-Apr-2020 11:07:21 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/home.php on line 13
+[27-Apr-2020 11:45:56 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[27-Apr-2020 11:45:56 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[28-Apr-2020 05:19:23 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[28-Apr-2020 05:19:28 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[28-Apr-2020 05:19:28 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[28-Apr-2020 05:19:29 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[28-Apr-2020 05:19:29 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[28-Apr-2020 05:19:29 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[28-Apr-2020 05:19:29 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[29-Apr-2020 12:06:06 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[29-Apr-2020 12:06:06 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[01-May-2020 14:18:04 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/index.php on line 9
+[01-May-2020 14:18:04 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[01-May-2020 14:18:04 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 9
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/include/menu.php on line 12
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 29
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 9
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/include/menu.php on line 12
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 26
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[03-May-2020 02:23:19 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[05-May-2020 17:22:46 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 51
+[05-May-2020 17:22:46 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 51
+[07-May-2020 17:48:36 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[07-May-2020 17:48:45 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[07-May-2020 17:48:45 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[07-May-2020 17:48:46 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[07-May-2020 17:48:46 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[07-May-2020 17:48:47 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[07-May-2020 17:48:47 Etc/GMT] PHP Notice:  A non well formed numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[11-May-2020 15:02:45 Etc/GMT] PHP Notice:  Undefined index: shoppig_cart in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 74
+[11-May-2020 15:02:45 Etc/GMT] PHP Warning:  array_column() expects parameter 1 to be array, null given in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 74
+[11-May-2020 15:02:45 Etc/GMT] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/shahahbr/public_html/demo/ecommerce/include/header.php on line 76
+[12-May-2020 00:43:57 Etc/GMT] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[12-May-2020 00:43:57 Etc/GMT] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[12-May-2020 00:43:57 Etc/GMT] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[12-May-2020 19:58:26 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[12-May-2020 19:58:26 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[13-May-2020 06:54:09 Etc/GMT] PHP Warning:  mysqli_connect(): (42000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[13-May-2020 06:54:09 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[13-May-2020 06:54:09 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[13-May-2020 06:54:09 Etc/GMT] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[13-May-2020 06:54:09 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[13-May-2020 06:54:09 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[14-May-2020 06:38:40 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[14-May-2020 06:38:40 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[16-May-2020 12:07:48 Etc/GMT] PHP Notice:  Undefined index: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 3
+[16-May-2020 12:07:48 Etc/GMT] PHP Notice:  Undefined variable: id in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 144
+[17-May-2020 08:08:54 Etc/GMT] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[17-May-2020 08:08:54 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/category.php on line 16
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/index.php on line 9
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[20-May-2020 16:03:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[21-May-2020 05:11:29 UTC] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[21-May-2020 05:11:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[21-May-2020 05:11:30 UTC] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[21-May-2020 05:11:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[21-May-2020 05:11:32 UTC] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[21-May-2020 05:11:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[21-May-2020 08:09:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shahahbr/public_html/demo/ecommerce/classes/category.php:1) in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 101
+[21-May-2020 08:10:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shahahbr/public_html/demo/ecommerce/classes/category.php:1) in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 101
+[21-May-2020 08:10:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shahahbr/public_html/demo/ecommerce/classes/category.php:1) in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 101
+[21-May-2020 19:04:52 UTC] PHP Notice:  Trying to get property 'data' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-May-2020 19:04:52 UTC] PHP Notice:  Trying to get property 'action' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-May-2020 19:04:52 UTC] PHP Notice:  Trying to get property 'url' of non-object in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 100
+[21-May-2020 19:04:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shahahbr/public_html/demo/ecommerce/classes/category.php:1) in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 101
+[22-May-2020 15:09:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1203): User shahahbr_root already has more than 'max_user_connections' active connections in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 14
+[22-May-2020 15:09:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 17
+[22-May-2020 15:09:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 18
+[22-May-2020 15:09:35 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/connection.php on line 21
+[22-May-2020 15:09:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 202
+[22-May-2020 15:09:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/shahahbr/public_html/demo/ecommerce/classes/medicine.php on line 203
+[23-May-2020 17:51:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[23-May-2020 18:01:33 UTC] PHP Warning:  A non-numeric value encountered in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 27
+[23-May-2020 18:01:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shahahbr/public_html/demo/ecommerce/pages/category.php on line 41
+[25-May-2020 16:13:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shahahbr/public_html/demo/ecommerce/classes/category.php:1) in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 101
+[25-May-2020 16:13:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shahahbr/public_html/demo/ecommerce/classes/category.php:1) in /home/shahahbr/public_html/demo/ecommerce/classes/payment.php on line 101
