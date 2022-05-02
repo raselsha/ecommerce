@@ -53,69 +53,46 @@
 
 	 ?>
 	<?php  if (!empty($_SESSION['shoppig_cart'])): ?>
-		<form method="post" action="" >
-		<table class="table">
-			<tr>
-				<td valign="top">
-					<h2>Billing Info</h2>
-					<label>Full name</label><br>
-					<input type="text" name="name" value="<?= $name; ?>"> <?= $er_name; ?><br>
-					
-					<label>Email address</label><br>
-					<input type="text" name="email" value="<?= $email; ?>"> <?= $er_email; ?><br>
-					
-					<label>Mobile number</label><br>
-					<input type="text" name="phone" value="<?= $phone; ?>"> <?= $er_phone; ?><br>
+		<div class="row">
+			<div class="col-md-12 my-4">
+				<h2 class="text-primary text-center">Your order has been placed successfully!</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 offset-md-4">
+				<h2>Summery</h2>
+				<table width="100%" class="table table-striped">
+					<tr>
+						<th align="left">Item name</th>
+						<th align="left">Sub Total</th>
+					</tr>
 
-					<label>City</label><br>
-					<input type="text" name="city" value="<?= $city; ?>"> <?= $er_city; ?><br>
-					<label>Address</label><br>
-					<textarea type="text" name="address"><?= $address; ?></textarea> <?= $er_address; ?><br>
-				</td>
-				<td valign="top">
-					<h2>Shipping Address</h2>
-					<label>Full name</label><br>
-					<input type="text" name="ship_to_name"><br>
-					<label>Mobile number</label><br>
-					<input type="text" name="ship_to_phone"><br>
-					<label>City</label><br>
-					<input type="text" name="ship_to_city"><br>
-					<label>Address</label><br>
-					<textarea type="text" name="ship_to_address"></textarea><br>
-				</td>
-
-				<td valign="top">
-					<h2>Your order</h2>
-					<table width="100%" class="table table-striped">
+					<?php 
+						$total = 0;
+						foreach ($_SESSION['shoppig_cart'] as $key => $value):?>
+							<tr>
+								<td><?= $value['item_name']; ?> x <?= $value['item_quantity']; ?>
+									
+								</td>
+								<td>$<?= number_format($value['item_price']*$value['item_quantity'],2); ?></td>
+							</tr>
+							<?php $total = $total + ($value['item_price']*$value['item_quantity']); ?>	
+						<?php endforeach; ?>
 						<tr>
-							<th align="left">Item name</th>
-							<th align="left">Sub Total</th>
+							<td align="right"><strong>Total</strong></td>
+							<td>
+								<strong>$<?= number_format($total,2); ?></strong>
+							</td>
 						</tr>
 
-						<?php 
-							$total = 0;
-							foreach ($_SESSION['shoppig_cart'] as $key => $value):?>
-								<tr>
-									<td><?= $value['item_name_en']; ?> x <?= $value['item_quantity']; ?>
-										
-									</td>
-									<td><?= number_format($value['item_price_en']*$value['item_quantity'],2); ?></td>
-								</tr>
-								<?php $total = $total + ($value['item_price_en']*$value['item_quantity']); ?>	
-							<?php endforeach; ?>
-							<tr>
-								<td align="right"><strong>Total</strong></td>
-								<td>
-									<strong><?= number_format($total,2); ?></strong>
-									<input type="hidden" name="amount" value="<?= $total; ?>">
-								</td>
-							</tr>
+				</table>
+				<?php 
 
-					</table>
-					<p><input type="submit" name="submit" class="btn btn-success btn-block btn-lg" value="Pay Now">
-					</p>
-				</td>
-			</tr>
-		</table>
-	</form>
+					unset($_SESSION['shoppig_cart']);
+				 ?>
+				 <a href="index.php?action=empty" class="btn btn-warning rounded-pill">Back to home</a>
+			</div>
+			
+		</div>
+		
 	<?php endif; ?>

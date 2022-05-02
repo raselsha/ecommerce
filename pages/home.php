@@ -11,34 +11,39 @@
 		$next=$page;
 
 		$offset = ($page*$limit)-$limit;
-		$medicine = $med->all_medicine($limit,$offset);
+		$product = $prdct->all_products($limit,$offset);
 	}
 	else{
-		$medicine = $med->all_medicine($limit,$offset);
+		$product = $prdct->all_products($limit,$offset);
 	}
 ?>
-	<div class="row">
-		<?php while ($medi = mysqli_fetch_assoc($medicine)) :?>		
-			<div class="col-md-3">
-				<div class="bg-light border border-danger p-3 mb-2 mx-auto">
-					<div class="product-image ">
-						<?php if($medi['image']): ?>
-							<img class="rounded mx-auto d-block" src="assets/admin/upload/<?= $medi['id']."_".$medi['image'] ?>" width="140">
-						<?php else: ?>
-							<img class="rounded mx-auto d-block" src="assets/admin/image/default.jpg" width="140">
-						<?php endif; ?>
-					</div>
-					<div class="product-name">
-				   		<h2 class="red"><?= $medi['name']; ?></h2>
-				   		<h3  class="blue"><?= $medi['name_en']; ?></h3>
-					   	<?php if ($medi['name_grp']):?>
-					   		<p>( <?= $medi['name_grp'] ?> )</p>
-					   	<?php endif; ?>
-					</div>
-					<div class="cart-button">
-						<?php include 'include/cart.php'; ?>
-					</div>
+	<div class="row my-3">
+		<div class="col-md-12">
+			<h2 class="text-center">All Fruites</h2>
+		</div>
+	</div>
+	<div class="row g-2">
+		<?php while ($item = mysqli_fetch_assoc($product)) :?>		
+			<div class="col-md-3 my-2">
+				<div class="card bg-secondary border border-primary rounded">
+					<a href="product_details.php?id=<?= base64_encode($item['id']); ?>">
+					  <?php if($item['image']): ?>
+					  	<img class="card-img-top" src="assets/admin/upload/<?= $item['id']."_".$item['image'] ?>" width="140">
+					  <?php else: ?>
+					  	<img class="card-img-top" src="assets/admin/image/default.jpg" width="140">
+					  <?php endif; ?>
+					</a>
+				  <div class="card-body text-center">
+				    <a href="product_details.php?id=<?= base64_encode($item['id']); ?>"><h6 class="card-title"><?= $item['name']; ?></h6></a>
+				    <h2  class="price">$<?= $item['price']; ?></h2>
+				    <form method="post">
+				    	<input type="hidden" name="quantity" value="1" >
+				    	<input type="hidden" name="product_id" value="<?= $item['id']; ?>">
+				    	<input type="submit" name="add_to_cart" class="btn btn-primary " value="Add to cart">
+				    </form>
+				  </div>
 				</div>
+
 			</div>
 		<?php endwhile; ?>
 	</div>
@@ -46,7 +51,7 @@
 	<div class="col-md-12">
 		<ul class="pagination">
 			<?php
-				$total_row =$med->medicine_row_count();
+				$total_row = $prdct->products_row_count();
 				$total_page = ceil($total_row/$limit);
 				if ($total_page>1) {
 					if ($prev>1) {

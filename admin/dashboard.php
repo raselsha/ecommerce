@@ -1,25 +1,22 @@
-
 <?php 
 	session_start();
-	if (!isset($_SESSION['email'])) {
-		header('Location:index.php');
+	if (!isset($_SESSION['admin_email'])) {
+		echo '<script>window.location.href = "index.php";</script>';
 	}
-
 	require '../classes/connection.php';
 	$con = new connection();
 	require '../classes/category.php';
 	$cat = new category();
 	require '../classes/type.php';
 	$typ = new type();
-	require '../classes/medicine.php';
-	$med = new medicine();
+	require '../classes/products.php';
+	$prdct = new products();
 
 
 	if (isset($_GET['action']) and $_GET['action']=='logout') {
-		unset($_SESSION['name']);
-		unset($_SESSION['email']);
-		unset($_SESSION['password']);
-		header('Location:index.php');
+		unset($_SESSION['admin_name']);
+		unset($_SESSION['admin_email']);
+		echo '<script>window.location.href = "index.php";</script>';
 	}
  	 
  ?>
@@ -28,43 +25,48 @@
 <head>
 	<title>Dashboard</title>
 	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../assets/admin/css/style.css">
 </head>
 <body>
-	<table width="100%" cellpadding="5">
-		<tr bgcolor="#eee" style="border-bottom: 2px solid #D82012;">
-			<td>
-				<a href="./"><img src="../assets/admin/image/Hamdard.png" alt="Hamdard" width="150" align="left"></a>
-				<a href="../index.php" style="margin-top:15px;display: block;" target="_blank">Shop</a>
-			</td>
-			<td colspan="" align="right">
+	<div class="container-fluid">
+		<div class="row bg-secondary border border-primary border-bottom-2">
+			<div class="col-2">
+				<a href="./"><img src="../assets/public/images/logo.png" width="120"></a>
+			</div>
+			<div class="col-10">
+				<p class="text-end">
+					<a href="../index.php" target="_blank">View Store front</a> | 
 				Today is: <strong><?= date('d F, Y'); ?></strong> | 
-				Loged in: <strong><?= $_SESSION['name'] ?></strong> | Email: <strong><?= $_SESSION['email'] ?></strong> | 
-				<a href="changed_password.php">Change password</a> | 
-				<a href="?action=logout">Logout</a>
-			</td>
-		</tr>
-		<tr>
-			<td width="14%" height="" bgcolor="#eee" valign="top">
-				<nav>
-					<ul>
-						<li><a href="category.php"><span class="red">&#9784</span> Category</a></li>
-						<li><a href="type.php"><span class="red">&#9784</span> Type</a></li>
-						<li><a href="medicine.php"><span class="red">&#9784</span> Medicine</a></li>
-					</ul>
+				Loged in: <strong><?php echo $_SESSION['admin_name']; ?></strong> | Email: <strong><?= $_SESSION['admin_email'] ?></strong>
+				</p>
+				<p  class="text-end">
+					<a class="btn btn-warning" href="changed_password.php">Change password</a>   
+					<a class="btn btn-danger" href="?action=logout">Logout</a>
+				</p>
+			</div>
+		</div>
+		<div class="row  vh-100">
+			<div class="col-2 bg-secondary border border-primary border-end-2">
+				<nav class="nav flex-column">
+					<a class="nav-link" href="category.php"><span class="red">&#9784</span> Category</a>
+					<a class="nav-link" href="type.php"><span class="red">&#9784</span> Type</a>
+					<a class="nav-link" href="products.php"><span class="red">&#9784</span> Products</a>
 				</nav>
-			</td>
-			<td width="80%" height="520" valign="top" bgcolor="#fff" >
-				<?php
-					if (isset($page)) {
-						include 'pages/'.$page.'.php';
-					}
-					else{
-						include 'pages/home.php';
-					}
-				?>
-			</td>
-		</tr>
-	</table>
+			</div>
+			<div class="col-10">
+					<?php
+						if (isset($page)) {
+							include 'pages/'.$page.'.php';
+						}
+						else{
+							include 'pages/home.php';
+						}
+					?>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

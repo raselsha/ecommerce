@@ -20,10 +20,9 @@
 		public function add_category($data){
 			$con = $this->con();
 			$category = $this->secure($data['category']);
-			$category_bn = $this->secure($data['category_bn']);
-			$category_en = $this->secure($data['category_en']);
+			$category_desc = $this->secure($data['category_desc']);
 			
-			$sql = "INSERT into category(category,category_bn,category_en)values('$category','$category_bn','$category_en')";
+			$sql = "INSERT into category(category,category_desc)values('$category','$category_desc')";
 			
 			if (mysqli_query($con,$sql)) {
 				$message = '<small class="green">Data has been saved!</small>';
@@ -39,10 +38,9 @@
 			$con = $this->con();
 			
 			$category = $this->secure($data['category']);
-			$category_bn = $this->secure($data['category_bn']);
-			$category_en = $this->secure($data['category_en']);
+			$category_desc = $this->secure($data['category_desc']);
 
-			$sql = "UPDATE category SET category='$data[category]',category_bn='$data[category_bn]',category_en='$data[category_en]' WHERE id = '$id' ";
+			$sql = "UPDATE category SET category='$data[category]',category_desc='$data[category_desc]' WHERE id = '$id' ";
 			if (mysqli_query($con,$sql)) {
 				$message = '<small class="green">Data has been updated!</small>';
 			}

@@ -1,15 +1,8 @@
 <?php
 	session_start();
-	require_once "config.php";
-	
-	if (isset($_SESSION['email'])) {
-		header('Location:dashboard.php');
+	if (isset($_SESSION['admin_email'])) {
+		echo '<script>window.location.href = "dashboard.php";</script>';
 	}
-
-	$redirectURL = "http://localhost/hamdard/admin/fb-callback.php?close";
-	$permissions = ['email'];
-	$loginURL = $helper->getLoginUrl($redirectURL, $permissions);
-
 ?>
 
 <!DOCTYPE html>
@@ -17,12 +10,18 @@
 <head>
 	<title>Login</title>
 	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../assets/admin/css/style.css">
 </head>
 <body>
 	<?php 
-		require '../classes/login.php';
-		$obj = new login();
+		require '../classes/connection.php';
+		$con = new connection();
+
+		require '../classes/user.php';
+		$user = new user();
 
 		$er_email='';
 		$er_password='';
@@ -37,34 +36,47 @@
 				$er++;
 			}
 			if ($er==0) {
-				$obj->check_login($_POST);
+				$row =$user->check_login($_POST);
+				if($row){
+					$_SESSION['admin_name']=$row['name'];
+					$_SESSION['admin_email']=$row['email'];
+					echo '<script>window.location.href = "dashboard.php";</script>';
+					
+				}
+				else{
+					$message =  '<p class="text-danger text-center">User data not matched</p>';
+				}
+				
 			}
 		}
 	 ?>
-	 <p align="center">
-	 	<img src="../assets/public/image/Hamdard.png" >
-	 </p>
-	 <table width="30%" align="center" cellpadding="20">
-	 	<tr>
-	 		<td bgcolor="#eee">
-	 			<form method="post">
-	 				<fieldset>
-	 					<legend>Login</legend>
-	 					<p><label>Email</label></p>
-	 					<p><input type="text" name="email"></p>
-	 					<?= $er_email; ?>
-	 					<p><label>Password</label></p>
-	 					<p><input type="password" name="password"></p>
-	 					<?= $er_password; ?>
-	 					<p>
-	 						<input type="submit" name="login" value="Login">
-	 						<input type="button" onclick="window.location='<?= $loginURL; ?>'" value="Login with facebook" style="padding:5px;border:1px solid #333;cursor: pointer;" class="blue_bg white">
-	 					</p>
-	 				</fieldset>
+
+	<div class="container">
+		 <div class="row ">
+		 	<div class="col-12 text-center mt-5">
+		 		<img src="../assets/public/images/logo.png" width="120">
+		 	</div>
+		 	<div class="col-md-4 offset-md-4 bg-secondary border border-primary py-3 mt-3">
+		 		<?= $message; ?>
+	 			<form action="" method="post">
+	 				<div class="form-group my-3">
+	 				    <label >Email</label>
+	 				    <input type="email"  name="email" class="form-control" placeholder="Enter email">
+	 				    <small class="form-text"><?= $er_email; ?></small>
+	 				</div>
+						<div class="form-group my-3">
+						    <label >Password</label>
+						    <input type="password" name="password" class="form-control" placeholder="Password">
+						    <small class="form-text"><?= $er_password; ?></small>
+						</div>
+						<div class="form-group my-4">
+							<input type="submit" class="btn btn-primary" name="login" value="Login">
+
+						</div>
+	 				
 	 			</form>
-	 			<p><a href="../">Back to main site</a></p>
-	 		</td>
-	 	</tr>
-	 </table>
+		 	</div>
+		 </div>
+	</div>
 </body>
 </html>

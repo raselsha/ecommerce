@@ -2,17 +2,17 @@
 
 	if (isset($_GET['action']) and $_GET['action']=='delete') {
 		$id = base64_decode($_GET['id']);
-		$med->delete_medicine($id);
+		$prdct->delete_product($id);
 	}
 
 	if (isset($_GET['action']) and $_GET['action']=='duplicate') {
 		$id = base64_decode($_GET['id']);
-		$med->duplicate_medicine($id);
+		$prdct->duplicate_product($id);
 	}
 
 ?>
 
-<h2>Medicine</h2>
+<h2>Products</h2>
 <p align="right">
 	<form method="get" action="search.php">
 		Search by name:
@@ -20,15 +20,13 @@
 		<input type="submit" name="" value="Search">
 	</form>
 </p>
-<table width="100%">
+<table width="100%" class="table table-bordered">
 	<tr>
-		<td colspan="11"><a href="add_medicine.php" class="blue_bg padding white">Add medicine</a></td>
+		<td colspan="11"><a href="add_product.php" class="blue_bg padding white">Add Product</a></td>
 	</tr>
 	<tr bgcolor="#eee">
 		<th>Sl</th>
-		<th>Name (English)</th>
-		<th>Name (বাংলা)</th>
-		<th>Group name</th>
+		<th>Name</th>
 		<th>Unit</th>
 		<th>Price</th>
 		<th>Type</th>
@@ -48,25 +46,23 @@
 			$next=$page;
 
 			$offset = ($page*$limit)-$limit;
-			$result = $med->all_medicine($limit,$offset);
+			$result = $prdct->all_products($limit,$offset);
 		}
 		else{
-			$result = $med->all_medicine($limit,$offset);
+			$result = $prdct->all_products($limit,$offset);
 		}
 		while ($row = mysqli_fetch_assoc($result)) {
 			echo '<tr>';
 				echo '<td width="2%">'.++$offset.'</td>';
-				echo '<td><a href="medicine_details.php?id='.base64_encode($row['id']).'">'.$row['name_en'].'</a></td>';
-				echo '<td>'.$row['name'].'</td>';
-				echo '<td>'.$row['name_grp'].'</td>';
+				echo '<td><a href="product_details.php?id='.base64_encode($row['id']).'">'.$row['name'].'</a></td>';
 				echo '<td>'.$row['unit'].'</td>';
 				echo '<td>'.$row['price'].'</td>';
 				echo '<td>'.$row['type_name'].'</td>';				
 				echo '<td>'.$row['category'].'</td>';
-				echo '<td align="center" width="180">
-						<a class="green_bg white padding" href="?action=duplicate&&id='.base64_encode($row['id']).'">Duplicate</a>  
-						<a class="yellow_bg white padding" href="edit_medicine.php?id='.base64_encode($row['id']).'">Edit</a>  
-						<a class="red_bg white padding" href="?action=delete&&id='.base64_encode($row['id']).'">Delete</a>
+				echo '<td align="center" width="200">
+						<a class="text-info p-2" href="?action=duplicate&&id='.base64_encode($row['id']).'">Duplicate</a>  
+						<a class="text-warning p-2" href="edit_product.php?id='.base64_encode($row['id']).'">Edit</a>  
+						<a class="text-danger p-2" href="?action=delete&&id='.base64_encode($row['id']).'">Delete</a>
 					 </td>';
 			echo '</tr>';
 		}
@@ -75,7 +71,7 @@
 <p class="pagination">
 	<?php
 
-		$total_row =$med->medicine_row_count();
+		$total_row =$prdct->medicine_row_count();
 		$total_page = ceil($total_row/$limit);
 		if ($total_page>1) {
 			if ($prev>1) {

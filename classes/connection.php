@@ -1,5 +1,5 @@
 <?php
-
+	
 	class connection
 	{
 		public $link;
@@ -8,9 +8,9 @@
 		public function con()
 		{
 			$host_name = 'localhost';
-			$user_name = 'shahahbr_root';
-			$password = 'one1two2';
-			$db_name = 'shahahbr_ecommerce';
+			$user_name = 'softplaner_root';
+			$password = 'One1!Two2@';
+			$db_name = 'softplaner_ecommerce';
 			$this->link = mysqli_connect($host_name,$user_name,$password,$db_name);
 			
 			$con = $this->link;

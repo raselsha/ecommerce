@@ -1,144 +1,193 @@
-@font-face {
-    font-family: 'bangla';
-    src: url('../fonts/SolaimanLipi_20-04-07.ttf');
-}
-@font-face {
-    font-family: 'Philosopher';
-    src: url('../fonts/Philosopher-Regular.ttf');
+
+
+/*==============================*/
+/*primary color: #4cd200*/
+/*secondary color: #d7fec1*/
+
+ @font-face {
+     font-family: 'Philosopher';
+     src: url('../fonts/Philosopher-Regular.ttf');
 }
 
-body{
-	font-family:"Times New Roman",serif,'bangla';
-	font-size: 14px;
-	color:#000;
+/*=============bootstrap============*/
+.btn-primary{
+    background-color:#4cd200 !important;
+    color: #fff;
+    border-color: #4cd20077;
+}
+.btn-primary:hover{
+  background-color:#4cd20077 !important;
+  color: #fefefe;
+  border-color: #4cd200;
 }
 
+.bg-primary{
+    background-color:#4cd200 !important;
+}
+.bg-secondary{
+    background-color:#d7fec1 !important;
+}
+.border-primary{
+  border-color: #4cd200 !important;
+}
+.border-secondary{
+  border-color: #d7fec1 !important;
+}
+.text-primary{
+  color: #4cd200 !important;
+}
+/*=========================*/
+ body{
+     font-family:'Philosopher';;
+     font-size: 14px;
+     color:#000;
+
+}
+.overlay{
+	position: fixed; /* Sit on top of the page content */
+	/*display: none;  Hidden by default*/ 
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,0.5); /* Black background with opacity */
+	z-index: 1
+}
+h1{
+     font-size:1.6rem;
+}
+h2{
+     font-size:1.5rem;
+}
+h3{
+     font-size:1.4rem;
+}
+h4{
+     font-size:1.3rem;
+}
+h5{
+     font-size:1.2rem;
+}
+h6{
+     font-size:1rem;
+}
+a{
+    text-decoration: none;
+    color: #4cd200;
+}
+a:hover{
+    text-decoration: none;
+    color: #4cd20077;
+}
 p{
-	font-family:"Times New Roman",serif,'bangla';
-	font-size: 15px;
-	line-height: 24px;
-}
-
-table,th,td{
-	border: 1px solid #ddd;
-	border-collapse: collapse;
-}
-td{
-	padding: 5px;
-}
-
-table{
-	margin:6px auto;
-}
-
-.line_height{
-line-height: 0px;	
+     font-family:"Times New Roman";
+     font-size: 15px;
+     line-height: 24px;
 }
 
 /*====================*/
-
 input[type="text"],textarea{
-	font-family:"Times New Roman",serif,'bangla';
-	width: 255px;
-	padding: 5px;
+     font-family:"Times New Roman",serif,'bangla';
+     width: 255px;
+     padding: 5px;
 }
-
 select{
-	font-family:"Times New Roman",serif,'bangla';
-	width: 267px;
-	padding: 5px;
+     font-family:"Times New Roman",serif,'bangla';
+     width: 267px;
+     padding: 5px;
 }
-
 input[type="submit"]{
-	width: 100px;
-	padding: 4px;
+     width: 100px;
+     padding: 4px;
 }
-/*=========== menu sidebar ========*/
-nav{}
-nav ul{margin: 0; padding: 0;list-style-type: none;}
-nav ul li{margin-bottom: 1px;}
-nav ul li a{display: block;padding:5px 10px;font-weight:bold;background: #ddd;text-decoration: none;color: #333}
-nav ul li a:hover{background: #ccc;color:#444;transition:all .5s}
-
-/*===========padding ==========*/
-a{
-	text-decoration: none;
+footer{
+     margin-top: 20px;
+     font-family: 'Philosopher', sans-serif;
 }
-
-.padding{
-	padding:2px 5px;
+/*===========container==========*/
+.container{
+	position: relative;
+	background:rgba(255,255,255,1);
+	z-index: 2;
 }
-/*===========text color ==========*/
-.white{
-	color: #fff;
+.header-top{
+     font-family: 'Philosopher', sans-serif;
 }
-
-.red{
-	color: #D92719;
+.buscket{
+    padding: 10px;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid #4cd200;
+    color: #4cd200;
 }
-
-.green{
-	color: #B0D458;
+.buscket:hover{
+    background: #d7fec1;
+    text-decoration: none;
+    color: #4cd200;
 }
-
-.yellow{
-	color: #ff9800;
+/*===========nav bar==========*/
+ .navbar{
+     padding:0rem;
 }
-
-.sky{
-	color: #6568FE;
+ .nav-link{
+     padding:0rem;
 }
-
-.blue{
-	color: #435196;
+ .navbar-expand-lg .navbar-nav .nav-link {
+     padding:0.2rem 3.5rem;
+     border-right: 1px solid #efefef;
 }
-
-/*===========bg color ==========*/
-
-.white_bg{
-	background:#fff;
+ .navbar-dark .navbar-nav .nav-link {
+     color:rgba(255,255,255,1);
+     font-size: 14px;
+     font-weight:600;
 }
-
-.red_bg{
-	background:#D92719;
+ .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+     color:#4cd200;
+     background:#d7fec1;
+    /*#D92719*/
 }
-
-.green_bg{
-	background:#B0D458;
+ .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+     color:#4cd200;
+     background:#d7fec1; 
+    /*#D92719*/
 }
-
-.blue_bg{
-	background:#12279b;
+ nav a{
+     text-decoration: none;
+     font-family: 'Philosopher', sans-serif;
 }
 
-.yellow_bg{
-	background:#ff9800;
+/*===========product ==========*/
+.price{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: arial;
 }
-
-.sky_bg{
-	background: #6568FE;
+.card-body {
+  padding:0.4rem 0.2rem;
 }
-
-/*===========bg color ==========*/
-.pagination{
-	margin:0;
+/*===========pagination ==========*/
+ .pagination{
+     margin:0;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
 }
-.pagination a{
-	text-decoration: none;
-	padding: 0px 7px;
-	margin: 0px 5px;
-	line-height: 20px;
-	display: inline-block;
-	border: 1px solid #999;
-	color: #333;
+ .pagination a{
+     text-decoration: none;
+     padding: 0px 7px;
+     margin:3px;
+     line-height: 20px;
+     display: inline-block;
+     border: 1px solid #999;
+     color: #333;
 }
-
-.pagination a:hover{
-	background: #aaa;
+ .pagination a:hover{
+     background: #aaa;
 }
-
-.pagination a.active{
-	background:#D92719;
-	border: 1px solid #000;
-	color: #fff;
+ .pagination a.active{
+     background:#D92719;
+     border: 1px solid #000;
+     color: #fff;
 }

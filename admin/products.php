@@ -1,4 +1,6 @@
 <?php
-
-	$page = 'edit_medicine';
+	
+	$page = 'products';
 	include 'dashboard.php';
+
+?>

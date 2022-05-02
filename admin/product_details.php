@@ -1,6 +1,6 @@
 <?php
 	
-	$page = 'medicine_details';
+	$page = 'product_details';
 	include 'dashboard.php';
 
 ?>

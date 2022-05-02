@@ -1,33 +1,25 @@
 <?php
 
 	$category = '';
-	$category_bn = '';
-	$category_en = '';
+	$category_desc = '';
 
 	$er_category = '';
-	$er_category_bn = '';
-	$er_category_en = '';
+	$er_category_desc = '';
 
 	$er=0;
 	$message='';
 
 	if (isset($_POST['update'])) {
 		$category = $_POST['category'];
-		$category_bn = $_POST['category_bn'];
-		$category_en = $_POST['category_en'];
+		$category_desc = $_POST['category_desc'];
 
 		if (empty($category)) {
 			$er_category = '<small class="red">This field is required!</small>';
 			$er++;
 		}
 
-		if (empty($category_bn)) {
-			$er_category_bn = '<small class="red">This field is required!</small>';
-			$er++;
-		}
-
-		if (empty($category_en)) {
-			$er_category_en = '<small class="red">This field is required!</small>';
+		if (empty($category_desc)) {
+			$er_category_desc = '<small class="red">This field is required!</small>';
 			$er++;
 		}
 
@@ -51,10 +43,8 @@
 					<legend>Add category</legend>
 					<p><label>Category</label></p>
 					<p><input type="text" name="category" value="<?= $row['category']; ?>"><?= $er_category; ?></p>
-					<p><label>Category বাংলা</label></p>
-					<p><input type="text" name="category_bn" value="<?= $row['category_bn']; ?>"><?= $er_category_bn; ?></p>
-					<p><label>Category English</label></p>
-					<p><input type="text" name="category_en" value="<?= $row['category_en']; ?>"><?= $er_category_en; ?></p>
+					<p><label>Category info</label></p>
+					<p><input type="text" name="category_desc" value="<?= $row['category_desc']; ?>"><?= $er_category_desc; ?></p>
 					<p><input type="submit" name="update" value="save"></p>
 				</fieldset>
 			</form>

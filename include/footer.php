@@ -1,6 +1,6 @@
 		<footer>
 			<div class="row">
-				<div class="col-md-12 border-top border-danger">
+				<div class="col-md-12 border-top border-light">
 					<div class="mt-2">
 						<?php include 'include/widgets.php'; ?>
 					</div>
@@ -9,7 +9,7 @@
 
 			<div class="row">
 				<div class="col-md-12">
-						<p class="text-center mt-2">Copyright &copy; 2020 All rights reserved. Developed by <a href="http://lieusoft.com">Lieu soft</a></p>
+						<p class="text-center mt-2">Copyright &copy; <script>document.write(new Date().getFullYear())</script> All rights reserved.</p>
 				</div>
 			</div>
 		</footer>

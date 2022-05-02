@@ -1,16 +1,45 @@
-@font-face {
-     font-family: 'bangla';
-     src: url('../fonts/SolaimanLipi_20-04-07.ttf');
-}
+/*primary color: #4cd200*/
+/*secondary color: #d7fec1*/
+
  @font-face {
      font-family: 'Philosopher';
      src: url('../fonts/Philosopher-Regular.ttf');
 }
+
+/*=============bootstrap============*/
+.btn-primary{
+    background-color:#4cd200 !important;
+    color: #fff;
+    border-color: #4cd20077;
+}
+.btn-primary:hover{
+  background-color:#4cd20077 !important;
+  color: #fefefe;
+  border-color: #4cd200;
+}
+
+.bg-primary{
+    background-color:#4cd200 !important;
+}
+.bg-secondary{
+    background-color:#d7fec1 !important;
+}
+.border-primary{
+  border-color: #4cd200 !important;
+}
+.border-secondary{
+  border-color: #d7fec1 !important;
+}
+.text-primary{
+  color: #4cd200 !important;
+}
+/*=========================*/
  body{
-     font-family:"Times New Roman",serif,'bangla';
+     font-family:'Philosopher';;
      font-size: 14px;
      color:#000;
-     background-image:url('../images/herbal.jpg');
+     /*background-image:url('../images/herbal.jpg');*/
+     background-color:#c9c9c9;
      background-size: cover;
      background-position:center top;
      background-repeat: no-repeat;
@@ -47,15 +76,26 @@ h6{
      font-size:1rem;
 }
 a{
-     text-decoration: none;
+    text-decoration: none;
+    color: #4cd200;
+}
+a:hover{
+    text-decoration: none;
+    color: #4cd20077;
 }
 p{
-     font-family:"Times New Roman",serif,'bangla';
+     font-family:"Times New Roman";
      font-size: 15px;
      line-height: 24px;
 }
 
 /*====================*/
+.header{
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top right;
+}
 input[type="text"],textarea{
      font-family:"Times New Roman",serif,'bangla';
      width: 255px;
@@ -77,12 +117,23 @@ footer{
 /*===========container==========*/
 .container{
 	position: relative;
-	width: 960px;
-	background:rgba(255,255,255,0.95);
+	background:rgba(255,255,255,1);
 	z-index: 2;
 }
 .header-top{
      font-family: 'Philosopher', sans-serif;
+}
+.buscket{
+    padding: 10px;
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid #4cd200;
+    color: #4cd200;
+}
+.buscket:hover{
+    background: #d7fec1;
+    text-decoration: none;
+    color: #4cd200;
 }
 /*===========nav bar==========*/
  .navbar{
@@ -93,7 +144,7 @@ footer{
 }
  .navbar-expand-lg .navbar-nav .nav-link {
      padding:0.2rem 3.5rem;
-     border-right: 1px solid rgba(125, 27, 19, 0.6);
+     border-right: 1px solid #efefef;
 }
  .navbar-dark .navbar-nav .nav-link {
      color:rgba(255,255,255,1);
@@ -101,68 +152,30 @@ footer{
      font-weight:600;
 }
  .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
-     color:rgba(255,255,255,1);
-     background:rgba(125, 27, 19, 0.5) 
+     color:#4cd200;
+     background:#d7fec1;
     /*#D92719*/
 }
  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-     color:rgba(255,255,255,1);
-     background:rgba(125, 27, 19, 0.5) 
+     color:#4cd200;
+     background:#d7fec1; 
     /*#D92719*/
 }
  nav a{
      text-decoration: none;
      font-family: 'Philosopher', sans-serif;
 }
-/*===========text color ==========*/
- .padding{
-     padding:2px 5px;
+
+/*===========product ==========*/
+.price{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: arial;
 }
- .white{
-     color: #fff;
+.card-body {
+  padding:0.4rem 0.2rem;
 }
- .red{
-     color: #D92719;
-}
- .green{
-     color: #B0D458;
-}
- .yellow{
-     color: #ff9800;
-}
- .sky{
-     color: #6568FE;
-}
- .blue{
-     color: #12279b;
-}
-/*===========bg color ==========*/
- .white_bg{
-     background:#fff;
-}
- .red_bg{
-     background:#D92719;
-}
- .green_bg{
-     background:#B0D458;
-}
- .yellow_bg{
-     background:#ff9800;
-}
- .sky_bg{
-     background: #6568FE;
-}
- .blue_bg{
-     background:#12279b;
-}
-/*===========bg color ==========*/
- .cart_top table{
-     display: none;
-}
- .cart_top:hover table{
-     display: block;
-}
-/*===========bg color ==========*/
+/*===========pagination ==========*/
  .pagination{
      margin:0;
      flex-wrap: wrap;
@@ -175,14 +188,14 @@ footer{
      margin:3px;
      line-height: 20px;
      display: inline-block;
-     border: 1px solid #999;
+     border: 1px solid #4cd200;
      color: #333;
 }
  .pagination a:hover{
-     background: #aaa;
+     background: #d7fec1;
 }
  .pagination a.active{
-     background:#D92719;
-     border: 1px solid #000;
-     color: #fff;
+     background:#d7fec1;
+     border: 1px solid #4cd200;
+     color: #4cd200;
 }

@@ -15,8 +15,7 @@ if (isset($_GET['action']) and $_GET['action']=='delete') {
 	<tr bgcolor="#eee">
 		<th>Sl</th>
 		<th width="200">Category</th>
-		<th width="300">Category (<small> বাংলা </small>)</th>
-		<th width="300">Category (<small> English </small>)</th>
+		<th width="300">Category Info</th>
 		<th width="100">Action</th>
 	</tr>
 	<?php
@@ -26,8 +25,7 @@ if (isset($_GET['action']) and $_GET['action']=='delete') {
 			echo '<tr >';
 				echo '<td width="2%">'.$row['id'].'</td>';
 				echo '<td>'.$row['category'].'</td>';
-				echo '<td>'.$row['category_bn'].'</td>';
-				echo '<td>'.$row['category_en'].'</td>';
+				echo '<td>'.$row['category_desc'].'</td>';
 				echo '<td>
 						<a class="blue" href="edit_category.php?id='.base64_encode($row['id']).'">Edit</a>
 						<a class="red" href="?action=delete&&id='.base64_encode($row['id']).'">Delete</a>
